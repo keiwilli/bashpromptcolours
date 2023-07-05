@@ -6,7 +6,7 @@ Credit goes to https://phoenixnap.com/kb/change-bash-prompt-linux. I built the b
 ## Command
 Below to setup the bash prompt. Replace WORDS string with your own message.
 ```
-echo "PS1='\e[1;31mWORDS \e[2;35m\u@\h\e[0;32m[\w]\\$ \e[0m'" >> /etc/profile
+echo "PS1='\[\e[1;31m\]WORDS \[\e[2;35m\]\u@\h\[\e[0;32m\][\w]\\$ \[\e[0m\]'" >> /etc/profile
 ```
 
 ### Colours list
